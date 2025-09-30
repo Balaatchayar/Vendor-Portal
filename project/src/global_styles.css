@@ -1,0 +1,100 @@
+@import '@angular/material/prebuilt-themes/azure-blue.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fafafa;
+}
+
+.success-snackbar {
+  background-color: #4caf50 !important;
+  color: white !important;
+}
+
+.error-snackbar {
+  background-color: #f44336 !important;
+  color: white !important;
+}
+
+.mat-mdc-tab-group {
+  --mdc-tab-indicator-active-indicator-color: #1976d2;
+}
+
+.mat-mdc-tab .mdc-tab__text-label {
+  color: #666;
+}
+
+.mat-mdc-tab.mdc-tab--active .mdc-tab__text-label {
+  color: #1976d2;
+}
+
+.mat-mdc-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.mat-mdc-button.mat-primary {
+  --mdc-text-button-label-text-color: #1976d2;
+}
+
+.mat-mdc-raised-button.mat-primary {
+  --mdc-filled-button-container-color: #1976d2;
+  --mdc-filled-button-label-text-color: white;
+}
+
+.mat-mdc-form-field {
+  --mdc-filled-text-field-focus-active-indicator-color: #1976d2;
+  --mdc-filled-text-field-focus-label-text-color: #1976d2;
+}
+
+@media (max-width: 768px) {
+  .mat-mdc-table {
+    font-size: 14px;
+  }
+  
+  .mat-mdc-header-cell,
+  .mat-mdc-cell {
+    padding: 8px 4px !important;
+  }
+}
+
+/* Custom utility classes */
+.text-center {
+  text-align: center;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.p-16 {
+  padding: 16px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
